@@ -1,13 +1,10 @@
 # Ping Principal MCP
 
-An MCP server that allows AI agents to ask questions to humans via **native macOS dialogs**. Stop AI hallucination by giving your AI an escape route when it needs human input!
+An MCP server that enables AI agents to request human input through native macOS dialogs. Provides a structured way for AI systems to ask clarifying questions rather than making assumptions.
 
-## Why This Exists
+## Overview
 
-Ever had an AI confidently give you the wrong API endpoint? Or make assumptions that break your code? This tool gives AI agents a way to ask questions directly through macOS native dialogs instead of hallucinating answers.
-
-**Before:** AI guesses and gets it wrong  
-**After:** AI asks via a nice dialog: "Which database should I use for this project?"
+This tool implements the Model Context Protocol (MCP) to facilitate human-AI interaction through system dialogs. When an AI agent encounters uncertainty, it can invoke dialog tools to gather information from the user before proceeding.
 
 ## Features
 
@@ -25,7 +22,7 @@ Ever had an AI confidently give you the wrong API endpoint? Or make assumptions 
 npx ping-principal-mcp
 ```
 
-That's it! The server starts and waits for MCP connections.
+This will start the server and wait for MCP connections.
 
 ### MCP Client Configuration
 
@@ -225,7 +222,3 @@ Contributions welcome! Please feel free to submit issues and pull requests.
 ## License
 
 MIT - see [LICENSE](LICENSE) file for details.
-
----
-
-**Stop AI hallucination. Start AI collaboration.**
