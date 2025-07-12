@@ -113,7 +113,7 @@ DIALOG TYPES:
   info     - Information dialog
 
 FOR MORE INFO:
-  https://github.com/your-username/ping-principal-mcp
+  https://github.com/willwillems/ping-principal-mcp
 `);
 }
 
@@ -143,14 +143,14 @@ async function main(): Promise<void> {
     
     // Check if we're on macOS
     if (process.platform !== 'darwin') {
-      console.error('❌ Error: ping-principal-mcp only works on macOS');
+      console.error('Error: ping-principal-mcp only works on macOS');
       process.exit(1);
     }
     
-    console.error('🚀 Starting ping-principal-mcp server...');
+    console.error('Starting ping-principal-mcp server...');
     
     if (options.port) {
-      console.error(`📡 HTTP mode not yet implemented. Use stdio mode for now.`);
+      console.error(`HTTP mode not yet implemented. Use stdio mode for now.`);
       process.exit(1);
     }
     
@@ -158,12 +158,12 @@ async function main(): Promise<void> {
     await server.run();
     
   } catch (error) {
-    console.error(`❌ Error: ${error instanceof Error ? error.message : String(error)}`);
+    console.error(`Error: ${error instanceof Error ? error.message : String(error)}`);
     process.exit(1);
   }
 }
 
 main().catch((error) => {
-  console.error(`❌ Fatal error: ${error instanceof Error ? error.message : String(error)}`);
+  console.error(`Fatal error: ${error instanceof Error ? error.message : String(error)}`);
   process.exit(1);
 });

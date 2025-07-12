@@ -1,4 +1,4 @@
-# Ping Principal MCP 🖥️💬
+# Ping Principal MCP
 
 An MCP server that allows AI agents to ask questions to humans via **native macOS dialogs**. Stop AI hallucination by giving your AI an escape route when it needs human input!
 
@@ -11,12 +11,12 @@ Ever had an AI confidently give you the wrong API endpoint? Or make assumptions 
 
 ## Features
 
-- 🖥️ **Native macOS Dialogs** - No files, no fuss, just clean system dialogs
-- 🎯 **Multiple Dialog Types** - Text input, multiple choice, yes/no, info, notifications
-- ⚡ **Zero Configuration** - Works out of the box with `npx`
-- 🔄 **MCP Standard** - Compatible with Claude Desktop, Cursor, and other MCP clients
-- ⏱️ **Timeout Handling** - Dialogs don't hang forever
-- 🛡️ **macOS Only** - Uses native AppleScript for authentic system integration
+- **Native macOS Dialogs** - No files, no fuss, just clean system dialogs
+- **Multiple Dialog Types** - Text input, multiple choice, yes/no, info, notifications
+- **Zero Configuration** - Works out of the box with `npx`
+- **MCP Standard** - Compatible with Claude Desktop, Cursor, and other MCP clients
+- **Timeout Handling** - Dialogs don't hang forever
+- **macOS Only** - Uses native AppleScript for authentic system integration
 
 ## Installation & Usage
 
@@ -176,7 +176,7 @@ Dialogs automatically timeout after 5 minutes (300 seconds) by default. You can 
 
 ### From Source
 ```bash
-git clone https://github.com/your-username/ping-principal-mcp.git
+git clone https://github.com/willwillems/ping-principal-mcp.git
 cd ping-principal-mcp
 npm install
 npm run build
@@ -228,4 +228,4 @@ MIT - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Stop AI hallucination. Start AI collaboration.** 🤝
+**Stop AI hallucination. Start AI collaboration.**
